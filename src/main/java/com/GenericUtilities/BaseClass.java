@@ -40,7 +40,7 @@ public class BaseClass
 	{
 		dbutil=new DatabaseUtility();
 		dbutil.getConnection("sdet48");
-		Thread.sleep(30000);
+		Thread.sleep(50000);
 	}
 	
 	@Parameters("BROWSER")
