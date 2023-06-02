@@ -39,7 +39,7 @@ public class ConfirmBookingAsAdminAnVerifyAsUserTest extends BaseClass
 		WelcomePage wp=new WelcomePage(driver);
 		wp.signInUser(USERUSERNAME, USERPASSWORD);
 		
-		//Navigate to tour package page
+		//navigate to tour package page
 		UserHomePage uhp=new UserHomePage(driver);
 		uhp.getTourPackagesLnk().click();
 				
