@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Account created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Username updated successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfull]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-02T14:35:44 IST" name="Default suite" finished-at="2023-06-02T14:35:54 IST" duration-ms="10392">
+    <groups>
+    </groups>
+    <test started-at="2023-06-02T14:35:44 IST" name="Default test" finished-at="2023-06-02T14:35:54 IST" duration-ms="10392">
+      <class name="Signup.Test.CreateUserAndUpdateUsernameTest">
+        <test-method is-config="true" signature="config_BS()[pri:0, instance:Signup.Test.CreateUserAndUpdateUsernameTest@6f1de4c7]" started-at="2023-06-02T14:35:43 IST" name="config_BS" finished-at="2023-06-02T14:35:44 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BS -->
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:Signup.Test.CreateUserAndUpdateUsernameTest@6f1de4c7]" started-at="2023-06-02T14:35:44 IST" name="config_BC" finished-at="2023-06-02T14:35:46 IST" duration-ms="1950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:Signup.Test.CreateUserAndUpdateUsernameTest@6f1de4c7]" started-at="2023-06-02T14:35:46 IST" name="config_BM" finished-at="2023-06-02T14:35:48 IST" duration-ms="2236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="createUserAndUpdateUsernameTest()[pri:0, instance:Signup.Test.CreateUserAndUpdateUsernameTest@6f1de4c7]" started-at="2023-06-02T14:35:48 IST" name="createUserAndUpdateUsernameTest" finished-at="2023-06-02T14:35:53 IST" duration-ms="5596" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Account created successfully]]>
+            </line>
+            <line>
+              <![CDATA[Username updated successfully]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUserAndUpdateUsernameTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:Signup.Test.CreateUserAndUpdateUsernameTest@6f1de4c7]" started-at="2023-06-02T14:35:53 IST" name="config_AM" finished-at="2023-06-02T14:35:54 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:Signup.Test.CreateUserAndUpdateUsernameTest@6f1de4c7]" started-at="2023-06-02T14:35:54 IST" name="config_AC" finished-at="2023-06-02T14:35:54 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+        <test-method is-config="true" signature="config_AS()[pri:0, instance:Signup.Test.CreateUserAndUpdateUsernameTest@6f1de4c7]" started-at="2023-06-02T14:35:54 IST" name="config_AS" finished-at="2023-06-02T14:35:54 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AS -->
+      </class> <!-- Signup.Test.CreateUserAndUpdateUsernameTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
