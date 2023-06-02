@@ -47,8 +47,8 @@ public class BaseClass
 	@BeforeClass (groups = {"smokeTest", "integrationTest"})
 	public void config_BC(/*String BROWSER*/ ) throws IOException
 	{
-		//String BROWSER =putil.getPropertyData("browser");
-		String BROWSER =System.getProperty("browser");
+		String BROWSER =putil.getPropertyData("browser");
+	//	String BROWSER =System.getProperty("browser");
 		if(BROWSER.equalsIgnoreCase("chrome"))
 		{
 		ChromeOptions opt=new ChromeOptions();
@@ -74,8 +74,8 @@ public class BaseClass
 	@BeforeMethod(groups = {"smokeTest", "integrationTest"})
 	public void config_BM() throws IOException
 	{
-		//String URL =putil.getPropertyData("url");
-		String URL = System.getProperty("url");
+		String URL =putil.getPropertyData("url");
+		//String URL = System.getProperty("url");
 		ADMINUSERNAME =putil.getPropertyData("adminusername");
 		ADMINPASSWORD = putil.getPropertyData("adminpassword");
 		USERUSERNAME =putil.getPropertyData("userusername");
