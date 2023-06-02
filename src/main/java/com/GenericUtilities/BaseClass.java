@@ -36,10 +36,11 @@ public class BaseClass
 	DatabaseUtility dbutil;	
 	
 	@BeforeSuite (groups = {"smokeTest", "integrationTest"}, alwaysRun = true)
-	public void config_BS() throws SQLException
+	public void config_BS() throws SQLException, InterruptedException
 	{
 		dbutil=new DatabaseUtility();
 		dbutil.getConnection("sdet48");
+		Thread.sleep(30000);
 	}
 	
 	@Parameters("BROWSER")
